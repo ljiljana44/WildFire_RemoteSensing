@@ -25,7 +25,7 @@ The content is structured to guide participants through downloading remote sensi
 ---
  
 ---
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ljiljana44/WildFire_Workshop/blob/main/01_download_data.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ljiljana44/WildFire_Workshop/blob/main/01_download_and_explore.ipynb)
  
 ## 🛠 Requirements
 
@@ -44,10 +44,15 @@ Open a new notebook at https://colab.research.google.com
 Run the following code cell to clone the repository:
  
 # Clone the repo
-!git clone https://github.com/your-username/WildFire_Workshop.git
-%cd WildFire_Workshop
-
+from google.colab import drive
+drive.mount('/content/drive')
  
+
+%%bash
+cd /content/drive/MyDrive/
+mkdir -p WildFire_RemoteSensing_workshop
+cd WildFire_RemoteSensing_workshop
+git clone https://github.com/ljiljana44/WildFire_RemoteSensing
 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ljiljana44/WildFire_Workshop/blob/main/01_download_and_explore.ipynb)
