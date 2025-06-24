@@ -42,22 +42,20 @@ You can run this workshop directly in Google Colab without installing anything l
 Open a new notebook at https://colab.research.google.com
 
 Run the following code cell to clone the repository:
-
-python
-Kopiraj
-Uredi
+ 
 # Clone the repo
 !git clone https://github.com/your-username/WildFire_Workshop.git
 %cd WildFire_Workshop
 
-# (Optional) Install dependencies
-!pip install -r requirements.txt
-
-# If using Git LFS:
-!apt-get install git-lfs
-!git lfs install
-!git lfs pull
+ 
 
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ljiljana44/WildFire_Workshop/blob/main/01_download_and_explore.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ljiljana44/WildFire_Workshop/blob/main/01_download_data.ipynb)
+
+📫 Contact
+For questions or collaboration ideas, feel free to reach out:
+
+GitHub: @ljiljana44
+
+Email: ljiljana@fesb.hr
