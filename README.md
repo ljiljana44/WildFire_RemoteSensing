@@ -41,7 +41,7 @@ Install Python dependencies:
 
 ```bash
 pip install -r requirements.txt
- 
+ ```
 ---
 
 OR 
@@ -55,10 +55,11 @@ You can run this workshop directly in Google Colab without installing anything l
 Open a new notebook at https://colab.research.google.com
 
 Run the following code cell to clone the repository:
- 
+ ```
 # Clone the repo
 !git clone https://github.com/your-username/WildFire_Workshop.git
 %cd WildFire_Workshop
+```
 =======  
 
 
