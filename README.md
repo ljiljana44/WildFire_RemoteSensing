@@ -51,8 +51,13 @@ OR
 ☁️ Run in Google Colab
  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ljiljana44/WildFire_Workshop/blob/main/00_Copy_to_google_colab.ipynb)
+
+
 ✅ Step-by-step:
-Open a new notebook at https://colab.research.google.com
+
+Open  https://colab.research.google.com 
+
+Open New notebook
 
 Run the cell to mount Google Drive 
 
