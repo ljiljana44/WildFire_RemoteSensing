@@ -54,11 +54,22 @@ You can run this workshop directly in Google Colab without installing anything l
 ✅ Step-by-step:
 Open a new notebook at https://colab.research.google.com
 
+Run the cell to mount Google Drive 
+
+ ```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
 Run the following code cell to clone the repository:
  ```
 # Clone the repo
-!git clone https://github.com/your-username/WildFire_Workshop.git
-%cd WildFire_Workshop
+cd /content/drive/MyDrive/
+mkdir -p WildFire_RemoteSensing_workshop
+cd WildFire_RemoteSensing_workshop
+git clone https://github.com/ljiljana44/WildFire_RemoteSensing
+
+
 ```
 =======  
 
