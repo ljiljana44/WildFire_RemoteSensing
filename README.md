@@ -21,10 +21,10 @@ The content is structured to guide participants through downloading remote sensi
 - Use  model to classify new images 
 
 ### 2. 🤖 **Machine Learning - Regression  Models**
-- Supervised learning: Random Forest, SVM, and Logistic Regression
+- Supervised learning: Linear, Polynomial and Ridge regression
 - Burned area   and fire risk prediction
 - Model evaluation  
-- Use  model to classify new images 
+- Use  model to create new images 
 
 ### 4. 🧩 **Patch-Based Analysis**
 - Divide satellite images into small "patches" for training
