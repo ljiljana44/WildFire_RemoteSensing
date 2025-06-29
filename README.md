@@ -37,21 +37,17 @@ The content is structured to guide participants through downloading remote sensi
  
 ## 🛠 Requirements
 
-Install Python dependencies:
+Install Python dependencies if running localy:
 
 ```bash
 pip install -r requirements.txt
  ```
----
 
-OR 
+OR
 
----
 
 ☁️ Run in Google Colab
  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ljiljana44/WildFire_Workshop/blob/main/00_Copy_to_google_colab.ipynb)
-
 
 ✅ Step-by-step:
 
